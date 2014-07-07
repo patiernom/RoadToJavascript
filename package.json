@@ -18,5 +18,8 @@
     "Examples"
   ],
   "author": "Marco Patierno, Roberto Sasso",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "lodash-node": "^2.4.1"
+  }
 }
