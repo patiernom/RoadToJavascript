@@ -4,7 +4,7 @@ function count() {
     for(var i = 0; i<5; i++) {
 
         arr.push(function () {
-                console.log(i);
+                console.log('array current index: ' + i);
             }
         );
     }

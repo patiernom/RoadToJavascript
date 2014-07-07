@@ -5,7 +5,7 @@ function count() {
 
         arr.push(function(index) {
             return function () {
-                console.log(index);
+                console.log('array current index: ' + index);
             };
         }(i));
     }
