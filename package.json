@@ -1,0 +1,22 @@
+{
+  "name": "RoadToJavascript",
+  "version": "0.1.0",
+  "description": "Javascrit School",
+  "main": "\"\"",
+  "scripts": {
+    "test": "\"\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "\"\""
+  },
+  "keywords": [
+    "Node.js",
+    "Javascript",
+    "Pattern",
+    "Functional",
+    "Examples"
+  ],
+  "author": "Marco Patierno, Roberto Sasso",
+  "license": "MIT"
+}
