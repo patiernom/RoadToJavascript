@@ -20,6 +20,7 @@
   "author": "Marco Patierno, Roberto Sasso",
   "license": "MIT",
   "devDependencies": {
-    "lodash-node": "^2.4.1"
+    "lodash-node": "^2.4.1",
+    "require-all": "0.0.8"
   }
 }

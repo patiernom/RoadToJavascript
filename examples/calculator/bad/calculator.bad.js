@@ -38,7 +38,7 @@ else {
 		var base = 2;
 		var limit = base - 1;
 
-		var nextNumber = value;
+		var nextNumber = leftNumber;
 		var conversionArray = new Array();
 		while(nextNumber>=limit) 
 		{
