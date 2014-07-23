@@ -4,16 +4,12 @@
 
 ## Installation
 
-The easiest way is to keep `roadtojavascript` as a devDependency in your `package.json`.
-```json
-{
-  "devDependencies": {
-    "roadtojavascript": "0.0.1"
-  }
-}
+TheThe easiest way is to download the repository `RoadToJavascript` through a Client for Version Control System.
+```bash
+hg clone https://github.com/patiernom/RoadToJavascript.git
 ```
 
-You can simple do it by:
+And now you can simple do this:
 ```bash
-npm install roadtojavascript --save-dev
+npm install
 ```
