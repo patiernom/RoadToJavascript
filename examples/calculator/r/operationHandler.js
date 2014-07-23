@@ -1,8 +1,8 @@
 "use strict";
 
 function operatorHandler (operator) {
-   var moduleLoader = require('require-all'),
-       operations = moduleLoader(__dirname + '/operations'),
+   var modulesLoader = require('require-all'),
+       operations = modulesLoader(__dirname + '/operations'),
        dependency;
 
     for (var op in operations){
