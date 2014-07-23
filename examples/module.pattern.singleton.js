@@ -11,7 +11,7 @@ var Module = (function () {
         exposedFunc: publicFunc,
         setCounter: setCounter
     }
-})();
+})(); //IIFE - Immediately Invoked Function Expression
 
 var instance1 = Module;
 var instance2 = Module;

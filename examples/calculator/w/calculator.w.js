@@ -15,55 +15,47 @@ if (typeof(rightNumber) === "undefined" || rightNumber === null || rightNumber =
     rightNumber = 0;
 }
 
-if(operation === "") 
-{
-	console.log("result: nop");
+if (operation === "") {
+    console.log("result: nop");
 }
 else {
-	if(operation === "+") 
-	{
-		result = ((1*leftNumber) + (1*rightNumber));
-	    console.log("result: "+ result);
-	} 
-	else if(operation === "-") 
-	{
-		result = leftNumber - rightNumber;
-	    console.log("result: "+ result);
-	} 
-	else if(operation === "*") 
-	{
-		result = leftNumber * rightNumber;
-	    console.log("result: "+ result);
-	} 
-	else if(operation === "/") 
-	{
-		result = leftNumber / rightNumber;
-	    console.log("result: "+ result);
-	} 
-	else if(operation === "%") 
-	{
-		result = leftNumber % rightNumber;
-		console.log(result);
-	} 
-	else if(operation === "bin") 
-	{
-		base = 2;
-		limit = base - 1;
+    if (operation === "+") {
+        result = ((1 * leftNumber) + (1 * rightNumber));
+        console.log("result: " + result);
+    }
+    else if (operation === "-") {
+        result = leftNumber - rightNumber;
+        console.log("result: " + result);
+    }
+    else if (operation === "*") {
+        result = leftNumber * rightNumber;
+        console.log("result: " + result);
+    }
+    else if (operation === "/") {
+        result = leftNumber / rightNumber;
+        console.log("result: " + result);
+    }
+    else if (operation === "%") {
+        result = leftNumber % rightNumber;
+        console.log(result);
+    }
+    else if (operation === "bin") {
+        base = 2;
+        limit = base - 1;
 
-		nextNumber = leftNumber;
-		conversionArray = new Array();
-		while(nextNumber>=limit) 
-		{
-		  conversionArray.push(nextNumber%base);
-		  nextNumber = Math.floor(nextNumber/base);  
-		}
+        nextNumber = leftNumber;
+        conversionArray = new Array();
+        while (nextNumber >= limit) {
+            conversionArray.push(nextNumber % base);
+            nextNumber = Math.floor(nextNumber / base);
+        }
 
-		len = conversionArray.length;
-		result = "";
-		for(var i = 0;i<len; i++) {
-		  result = result + conversionArray[i];
-		}
+        len = conversionArray.length;
+        result = "";
+        for (var i = 0; i < len; i++) {
+            result = result + conversionArray[i];
+        }
 
-		console.log("result: "+ result)
-	}
+        console.log("result: " + result)
+    }
 }
